@@ -1,5 +1,6 @@
-language: php
-php:
-  - 5.6
-  - 7.0
-script: phpunit Test.php
+language: node_js
+node_js:
+  - 6.11
+script:
+- |
+  cd node && npm install && npm run build
