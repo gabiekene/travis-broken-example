@@ -101,4 +101,4 @@ var StorePrototype = {
 };
 for (var i in StorePrototype) Store.prototype[i] = StorePrototype[i];
 
-if (module && module.exports) module.exports = Store;
+if (typeof module === 'object') module.exports = Store;

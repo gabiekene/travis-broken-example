@@ -9,3 +9,9 @@ var __require = function(name, func) {
   _require(o);
 };
 _require();
+
+//
+__require('../app/store/static', function(r,m,e) {m.exports = Store; });
+__require('../app/model',        function(r,m,e) {m.exports = Model; });
+__require('redux',               function(r,m,e) {m.exports = Redux; });
+__require('../app/redux',        function(r,m,e) {m.exports = store; });
