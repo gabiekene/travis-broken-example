@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "npm install && node test.js",
+    "build": "npm install && jest",
     "test": "jest",
     "start": ""
   },
