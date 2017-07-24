@@ -1,13 +1,11 @@
 {
   "scripts": {
-    "build": "npm install && jest",
-    "test": "jest",
+    "build": "npm install && npm run test",
+    "test": "jasmine --config=spec/jasmine.json",
     "start": ""
   },
-  "dependencies": {
-    "redux": "^3.7.2"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "jest": "^20.0.4"
+    "jasmine": "^2.6.0"
   }
 }

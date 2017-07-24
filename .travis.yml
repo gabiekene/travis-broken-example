@@ -3,4 +3,5 @@ node_js:
   - 6.11
 script:
 - |
-  cd node && npm run build
+  cd node && 
+  npm run build

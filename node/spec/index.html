@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src='./deps.js'></script>
+    <meta charset='utf-8'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/jasmine/2.6.4/jasmine.min.css' />
+  </head>
+  <body>
+    <div id='app'></div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jasmine/2.6.4/jasmine.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jasmine/2.6.4/jasmine-html.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jasmine/2.6.4/boot.min.js'></script>
+    <script src='../app/store/static.js'></script>
+    <script src='../app/model.js'></script>
+    <script>__require('../app/store/static', function(r,m,e) {m.exports = Store; });</script>
+    <script>__require('../app/model',        function(r,m,e) {m.exports = Model; });</script>
+    <script src='./store-spec.js'></script>
+    <script src='./model-spec.js'></script>
+  </body>
+</html>
