@@ -1,9 +1,13 @@
 {
   "scripts": {
-    "build": "npm install",
+    "build": "npm install && node test.js",
+    "test": "jest",
     "start": ""
   },
   "dependencies": {
     "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "jest": "^20.0.4"
   }
 }
