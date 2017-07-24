@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "build": "cls",
-    "start": "cls"
+    "build": "",
+    "start": ""
   },
   "dependencies": {
     "redux": "^3.7.2"
